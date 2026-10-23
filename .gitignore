@@ -140,6 +140,7 @@ celerybeat.pid
 mnesia/
 rabbitmq/
 rabbitmq-data/
+data/
 
 # ActiveMQ
 activemq-data/
@@ -216,3 +217,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local data, generated artifacts, and experiment tracking.
+/data/
+/models/
+/output/
+/mlruns/
+/mlartifacts/
+
+# Local working materials and exercises.
+/.local/
+/learning/
+/practice/
+/docs/LEARNING_PATH.md
+/docs/RESUME_BULLETS.md
+/notebooks/guided/
+.DS_Store
